@@ -10,5 +10,4 @@ as a response for `eth_getTransactionCount(address, 'pending')`.
 
 Run `setup.sh` to install script dependencies and start reth.
 
-Run `npm start` to start script. 
-It usually takes under a couple of minutes till transaction fails with `nonce has already been used`.
+Run `npm start` to start script.
