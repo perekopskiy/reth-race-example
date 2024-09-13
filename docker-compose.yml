@@ -13,5 +13,5 @@ services:
         source: ./chaindata
         target: /chaindata
     environment:
-      - RUST_LOG=error,rpc=TRACE
+      - RUST_LOG=info
     command: node --dev --datadir /rethdata --http --http.addr 0.0.0.0 --http.port 8545 --http.corsdomain "*" --dev.block-time 300ms --chain /chaindata/reth_config

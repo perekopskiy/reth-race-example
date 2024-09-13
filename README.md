@@ -6,7 +6,9 @@ as a response for `eth_getTransactionCount(address, 'pending')`.
 
 ## Steps to reproduce
 
+`npm` and `docker` are used to run script and reth. Make sure they are installed.
+
 Run `setup.sh` to install script dependencies and start reth.
 
 Run `npm start` to start script. 
-It usually takes under a couple of minutes until transactions fails with `nonce has already been used`.
+It usually takes under a couple of minutes till transaction fails with `nonce has already been used`.
